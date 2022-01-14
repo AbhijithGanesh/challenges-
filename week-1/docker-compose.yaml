@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  database:
+    image: cassandra
+    container_name: cassandra-container
+    ports:
+      - 9042:9042
+    environment:
+      CASSANDRA_USER: "cassandra"
+      CASSANDRA_PASSWORD: "cassandra"
+      CASSANDRA_LOCCAL_DC: "week-1-datacenter"
+      CASSANDRA_CONTACT_POINTS: "database:9042"

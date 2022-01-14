@@ -1,0 +1,17 @@
+{
+  "name": "solutions-to-challenges",
+  "version": "1.0.0",
+  "description": "Answers to week-1",
+  "main": "index.js",
+  "repository": "https://github.com/AbhijithGanesh/challenges-.git",
+  "author": "Abhijith Ganesh <g.abhijith14122003@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "private": false,
+  "dependencies": {
+    "express-cassandra": "^2.7.0",
+    "nodemon": "^2.0.15"
+  }
+}
